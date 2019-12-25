@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="simbolo_entradas">
+        <item>Bola</item>
+        <item>Cruz</item>
+    </array>
+
+    <array name="simbolo_valores">
+        <item>Bola</item>
+        <item>Cruz</item>
+    </array>
+
+</resources>

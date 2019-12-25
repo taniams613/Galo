@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_galo"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/grelha"
+        android:layout_width="330dp"
+        android:layout_height="467dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        app:srcCompat="@drawable/grelha" />
+
+    <ImageView
+        android:id="@+id/starten"
+        android:layout_width="330dp"
+        android:layout_height="136dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="39dp"
+        app:srcCompat="@drawable/botao_comecar"
+        tools:layout_centerHorizontal="false" />
+
+    <ImageView
+        android:id="@+id/leer1"
+        android:layout_width="74dp"
+        android:layout_height="82dp"
+        android:layout_below="@+id/starten"
+        android:layout_alignStart="@+id/starten"
+        android:layout_marginStart="-6dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/vazio" />
+
+    <ImageView
+        android:id="@+id/leer2"
+        android:layout_width="102dp"
+        android:layout_height="82dp"
+        android:layout_alignTop="@+id/leer1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/vazio" />
+
+    <ImageView
+        android:id="@+id/leer3"
+        android:layout_width="80dp"
+        android:layout_height="79dp"
+        android:layout_alignEnd="@+id/grelha"
+        android:layout_alignTop="@+id/leer1"
+        android:layout_marginEnd="18dp"
+        app:srcCompat="@drawable/vazio" />
+
+    <ImageView
+        android:id="@+id/leer4"
+        android:layout_width="76dp"
+        android:layout_height="101dp"
+        android:layout_alignStart="@+id/starten"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="234dp"
+        app:srcCompat="@drawable/vazio" />
+
+    <ImageView
+        android:id="@+id/leer5"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/leer4"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/vazio" />
+
+    <ImageView
+        android:id="@+id/leer6"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/leer3"
+        android:layout_alignTop="@+id/leer4"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/vazio" />
+
+    <ImageView
+        android:id="@+id/leer7"
+        android:layout_width="74dp"
+        android:layout_height="91dp"
+        android:layout_alignStart="@+id/starten"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="106dp"
+        app:srcCompat="@drawable/vazio" />
+
+    <ImageView
+        android:id="@+id/leer8"
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/leer5"
+        android:layout_alignTop="@+id/leer7"
+        app:srcCompat="@drawable/vazio" />
+
+    <ImageView
+        android:id="@+id/leer9"
+        android:layout_width="wrap_content"
+        android:layout_height="86dp"
+        android:layout_alignStart="@+id/leer3"
+        android:layout_alignTop="@+id/leer7"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="6dp"
+        app:srcCompat="@drawable/vazio" />
+</RelativeLayout>

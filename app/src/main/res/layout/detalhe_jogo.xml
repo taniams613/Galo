@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_galo"
+    android:orientation="vertical"
+    tools:context=".DetalhesJogoActivity">
+
+    <TextView
+        android:id="@+id/numjogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/numjogo"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#ffffff"
+        android:text="TextView"
+        />
+
+    <ImageView
+        android:id="@+id/img_resultado"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_toRightOf="@+id/resultado"
+        android:layout_alignTop="@+id/resultado"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/bola"/>
+
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/resultado"
+        android:layout_below="@+id/img_resultado"
+        android:layout_marginTop="25dp"
+        android:textColor="#ffffff"
+        android:text="TextView"
+        />
+
+</RelativeLayout>

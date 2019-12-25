@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_regras"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_action_view_as_list"
+        android:title="@string/menu_regras"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Definições"/>
+
+    <item
+        android:id="@+id/menu_ultimos_jogos"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/menu_ultimos_jogos"/>
+
+</menu>

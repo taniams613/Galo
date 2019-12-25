@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Galo</string>
+    <string name="vitoria">Victory for player</string>
+    <string name="empate">Draw</string>
+    <string name="menu_regras">Rules</string>
+    <string name="menu_ultimos_jogos">Last Games</string>
+</resources>

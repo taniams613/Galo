@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vitoria">Ganhou o/a jogador/a </string>
+    <string name="empate">O jogo terminou num empate</string>
+    <string name="menu_regras">Regras</string>
+    <string name="menu_ultimos_jogos">Últimos jogos</string>
+</resources>
